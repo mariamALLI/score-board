@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="container">
+                <div class="home">
+                    <h3 class="text">HOME</h3>
+                    <h4 id="home_count">0</h4>
+
+                    <div class="btns">
+                        <button class="home_btn" onclick="plusOne()">+ 1</button>
+                        <button class="home_btn" onclick="plusTwo()">+ 2</button>
+                        <button class="home_btn" onclick="plusThree()">+ 3</button>
+                    </div>
+                </div>
+
+                <div class="guest">
+                    <h3 class="text">GUEST</h3>
+                    <h4 id="guest_count">0</h4>
+
+                    <div class="btns">
+                        <button class="guest_btn" onclick="plus1()">+ 1</button>
+                        <button class="guest_btn" onclick="plus2()">+ 2</button>
+                        <button class="guest_btn" onclick="plus3()">+ 3</button>
+                    </div>
+                </div>
+            </div>
+              
+                <button class="reset" onclick="reset()">RESET</button>
+       </div>
+
+
+        <script src="index.js"></script>
+    </body>
+</html>
